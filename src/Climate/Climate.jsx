@@ -18,12 +18,12 @@ export const Climate = ({ climate }) => {
       </div>
       <div className="climate__controls">
         <button
-          onClick={() => setTemp(Number(temp) + 1)}
+          onClick={() => setTemp(temp + 1)}
           className="button">
           +
         </button>
         <button
-          onClick={() => setTemp(Number(temp) - 1)}
+          onClick={() => setTemp(temp - 1)}
           className="button">
           -
         </button>
