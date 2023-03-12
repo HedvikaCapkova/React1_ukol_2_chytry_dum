@@ -1,5 +1,6 @@
 import React from 'react';
 import { Lights } from '../Lights/Lights.jsx';
+import { Climate } from '../Climate/Climate.jsx';
 import './Dashboard.css';
 
 export const Dashboard = ({ data }) => {
@@ -8,6 +9,7 @@ export const Dashboard = ({ data }) => {
     <>
       <main className="dashboard">
         <Lights lights={lights} />
+        <Climate climate={climate} />
       </main>
     </>
   );
