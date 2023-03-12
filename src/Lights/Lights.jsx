@@ -4,15 +4,13 @@ import './Lights.css';
 
 export const Lights = ({ lights }) => {
   return (
-    <>
-      <div className="lights">
-        {lights.map((light) => (
-          <Light
-            key={light.name}
-            light={light}
-          />
-        ))}
-      </div>
-    </>
+    <div className="lights">
+      {lights.map((light) => (
+        <Light
+          key={light.name}
+          light={light}
+        />
+      ))}
+    </div>
   );
 };

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import lightOff from './light-off.svg';
 import lightOn from './light-on.svg';
-
 import './Light.css';
 
 export const Light = ({ light }) => {
